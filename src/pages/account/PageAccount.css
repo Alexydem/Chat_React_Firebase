@@ -1,0 +1,11 @@
+.pageAccount {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.accountName {
+    font-size: 40px;
+    border: 2px solid red;
+}

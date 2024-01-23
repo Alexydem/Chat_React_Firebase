@@ -1,0 +1,91 @@
+.chatsListBox {
+    flex: 2;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatsList {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background: #787878;
+}
+
+.createNewChatForm {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.newChatButton {
+    width: 100%;
+    height: 40px;
+    background: #4b4b4b;
+    border: none;
+    color: rgb(213, 213, 213);
+}
+
+.newChatButton:hover {
+    cursor: pointer;
+    background: #5f5f5f;
+}
+
+.newChatForm {
+    width: 100%;
+    height: 40px;
+}
+
+.createNewChatButton {
+    width: 100%;
+    height: 40px;
+}
+
+
+
+.chatName,
+.chatNamePassive {
+    text-decoration: none;
+}
+
+.activeChatName {
+    color: rgb(0, 0, 255) !important;
+    text-shadow: 0px 0px 2px rgba(0, 255, 110, 0.407) !important;
+    background: yellow !important;
+    background-color: green !important;
+    font-weight: 900 !important;
+}
+
+.chatName {
+    color: rgb(213, 213, 213);
+    font-weight: 900 !important;
+}
+
+.chatNamePassive {
+    color: white;
+}
+
+.buttonDeleteChat {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: rgb(161, 161, 161);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.buttonDeleteChat:hover {
+    color: rgb(243, 243, 243);
+    background: #474747;
+    border-radius: 4px;
+}
+
+.buttonDeleteChat:active {
+    color: red;
+    background-color: rgba(243, 236, 41, 0.3);
+}
